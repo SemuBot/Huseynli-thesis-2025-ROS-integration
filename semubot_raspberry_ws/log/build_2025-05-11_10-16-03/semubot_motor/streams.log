@@ -1,0 +1,37 @@
+[3.880s] Invoking command in '/home/semubot-omar/semubot_ws/src/semubot_motor': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/semubot-omar/semubot_ws/build/semubot_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/semubot-omar/semubot_ws/install/semubot_motor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/semubot_motor build --build-base /home/semubot-omar/semubot_ws/build/semubot_motor/build install --record /home/semubot-omar/semubot_ws/build/semubot_motor/install.log --single-version-externally-managed install_data
+[5.132s] running egg_info
+[5.133s] creating ../../build/semubot_motor/semubot_motor.egg-info
+[5.222s] writing ../../build/semubot_motor/semubot_motor.egg-info/PKG-INFO
+[5.224s] writing dependency_links to ../../build/semubot_motor/semubot_motor.egg-info/dependency_links.txt
+[5.224s] writing entry points to ../../build/semubot_motor/semubot_motor.egg-info/entry_points.txt
+[5.225s] writing requirements to ../../build/semubot_motor/semubot_motor.egg-info/requires.txt
+[5.226s] writing top-level names to ../../build/semubot_motor/semubot_motor.egg-info/top_level.txt
+[5.226s] writing manifest file '../../build/semubot_motor/semubot_motor.egg-info/SOURCES.txt'
+[5.440s] reading manifest file '../../build/semubot_motor/semubot_motor.egg-info/SOURCES.txt'
+[5.446s] writing manifest file '../../build/semubot_motor/semubot_motor.egg-info/SOURCES.txt'
+[5.447s] running build
+[5.453s] running build_py
+[5.454s] creating /home/semubot-omar/semubot_ws/build/semubot_motor/build
+[5.455s] creating /home/semubot-omar/semubot_ws/build/semubot_motor/build/lib
+[5.456s] creating /home/semubot-omar/semubot_ws/build/semubot_motor/build/lib/semubot_motor
+[5.457s] copying semubot_motor/cmd_vel_motor_driver.py -> /home/semubot-omar/semubot_ws/build/semubot_motor/build/lib/semubot_motor
+[5.458s] copying semubot_motor/__init__.py -> /home/semubot-omar/semubot_ws/build/semubot_motor/build/lib/semubot_motor
+[5.459s] running install
+[5.484s] running install_lib
+[5.581s] creating /home/semubot-omar/semubot_ws/install/semubot_motor/lib/python3.12/site-packages/semubot_motor
+[5.581s] copying /home/semubot-omar/semubot_ws/build/semubot_motor/build/lib/semubot_motor/cmd_vel_motor_driver.py -> /home/semubot-omar/semubot_ws/install/semubot_motor/lib/python3.12/site-packages/semubot_motor
+[5.582s] copying /home/semubot-omar/semubot_ws/build/semubot_motor/build/lib/semubot_motor/__init__.py -> /home/semubot-omar/semubot_ws/install/semubot_motor/lib/python3.12/site-packages/semubot_motor
+[5.585s] byte-compiling /home/semubot-omar/semubot_ws/install/semubot_motor/lib/python3.12/site-packages/semubot_motor/cmd_vel_motor_driver.py to cmd_vel_motor_driver.cpython-312.pyc
+[5.589s] byte-compiling /home/semubot-omar/semubot_ws/install/semubot_motor/lib/python3.12/site-packages/semubot_motor/__init__.py to __init__.cpython-312.pyc
+[5.590s] running install_data
+[5.591s] creating /home/semubot-omar/semubot_ws/install/semubot_motor/share/ament_index
+[5.592s] creating /home/semubot-omar/semubot_ws/install/semubot_motor/share/ament_index/resource_index
+[5.592s] creating /home/semubot-omar/semubot_ws/install/semubot_motor/share/ament_index/resource_index/packages
+[5.593s] copying resource/semubot_motor -> /home/semubot-omar/semubot_ws/install/semubot_motor/share/ament_index/resource_index/packages
+[5.593s] copying package.xml -> /home/semubot-omar/semubot_ws/install/semubot_motor/share/semubot_motor
+[5.594s] running install_egg_info
+[5.690s] Copying ../../build/semubot_motor/semubot_motor.egg-info to /home/semubot-omar/semubot_ws/install/semubot_motor/lib/python3.12/site-packages/semubot_motor-0.0.0-py3.12.egg-info
+[5.696s] running install_scripts
+[6.383s] Installing cmd_vel_motor_driver script to /home/semubot-omar/semubot_ws/install/semubot_motor/lib/semubot_motor
+[6.385s] writing list of installed files to '/home/semubot-omar/semubot_ws/build/semubot_motor/install.log'
+[6.533s] Invoked command in '/home/semubot-omar/semubot_ws/src/semubot_motor' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/semubot-omar/semubot_ws/build/semubot_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/semubot-omar/semubot_ws/install/semubot_motor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/semubot_motor build --build-base /home/semubot-omar/semubot_ws/build/semubot_motor/build install --record /home/semubot-omar/semubot_ws/build/semubot_motor/install.log --single-version-externally-managed install_data

@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.001618] (semubot_motor) JobQueued: {'identifier': 'semubot_motor', 'dependencies': OrderedDict()}
+[0.001792] (semubot_motor) JobStarted: {'identifier': 'semubot_motor'}
+[0.099156] (-) TimerEvent: {}
+[0.199873] (-) TimerEvent: {}
+[0.300532] (-) TimerEvent: {}
+[0.401172] (-) TimerEvent: {}
+[0.501742] (-) TimerEvent: {}
+[0.602387] (-) TimerEvent: {}
+[0.702907] (-) TimerEvent: {}
+[0.803451] (-) TimerEvent: {}
+[0.904056] (-) TimerEvent: {}
+[1.004749] (-) TimerEvent: {}
+[1.105710] (-) TimerEvent: {}
+[1.206368] (-) TimerEvent: {}
+[1.307024] (-) TimerEvent: {}
+[1.407838] (-) TimerEvent: {}
+[1.508387] (-) TimerEvent: {}
+[1.609009] (-) TimerEvent: {}
+[1.709606] (-) TimerEvent: {}
+[1.810286] (-) TimerEvent: {}
+[1.910871] (-) TimerEvent: {}
+[2.011435] (-) TimerEvent: {}
+[2.112040] (-) TimerEvent: {}
+[2.212616] (-) TimerEvent: {}
+[2.313246] (-) TimerEvent: {}
+[2.413838] (-) TimerEvent: {}
+[2.514435] (-) TimerEvent: {}
+[2.615018] (-) TimerEvent: {}
+[2.715560] (-) TimerEvent: {}
+[2.816185] (-) TimerEvent: {}
+[2.916716] (-) TimerEvent: {}
+[3.017286] (-) TimerEvent: {}
+[3.117862] (-) TimerEvent: {}
+[3.218450] (-) TimerEvent: {}
+[3.319053] (-) TimerEvent: {}
+[3.419610] (-) TimerEvent: {}
+[3.520330] (-) TimerEvent: {}
+[3.620914] (-) TimerEvent: {}
+[3.721642] (-) TimerEvent: {}
+[3.822620] (-) TimerEvent: {}
+[3.869893] (semubot_motor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/semubot_motor', 'build', '--build-base', '/home/semubot-omar/semubot_ws/build/semubot_motor/build', 'install', '--record', '/home/semubot-omar/semubot_ws/build/semubot_motor/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/semubot-omar/semubot_ws/src/semubot_motor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'semubot-omar', 'SSH_CLIENT': '192.168.0.81 51895 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/semubot-omar', 'OLDPWD': '/home/semubot-omar', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'ROS_IP': '192.168.0.181', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'semubot-omar', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '66', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/semubot-omar/semubot_ws/build/semubot_motor', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.81 51895 192.168.0.181 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/semubot-omar/semubot_ws/build/semubot_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/semubot-omar/semubot_ws/install/semubot_motor/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.922846] (-) TimerEvent: {}
+[4.023463] (-) TimerEvent: {}
+[4.124096] (-) TimerEvent: {}
+[4.224694] (-) TimerEvent: {}
+[4.325319] (-) TimerEvent: {}
+[4.425895] (-) TimerEvent: {}
+[4.526455] (-) TimerEvent: {}
+[4.627067] (-) TimerEvent: {}
+[4.727695] (-) TimerEvent: {}
+[4.828316] (-) TimerEvent: {}
+[4.928868] (-) TimerEvent: {}
+[5.029423] (-) TimerEvent: {}
+[5.130076] (-) TimerEvent: {}
+[5.133348] (semubot_motor) StdoutLine: {'line': b'running egg_info\n'}
+[5.134732] (semubot_motor) StdoutLine: {'line': b'creating ../../build/semubot_motor/semubot_motor.egg-info\n'}
+[5.223809] (semubot_motor) StdoutLine: {'line': b'writing ../../build/semubot_motor/semubot_motor.egg-info/PKG-INFO\n'}
+[5.225026] (semubot_motor) StdoutLine: {'line': b'writing dependency_links to ../../build/semubot_motor/semubot_motor.egg-info/dependency_links.txt\n'}
+[5.225834] (semubot_motor) StdoutLine: {'line': b'writing entry points to ../../build/semubot_motor/semubot_motor.egg-info/entry_points.txt\n'}
+[5.226485] (semubot_motor) StdoutLine: {'line': b'writing requirements to ../../build/semubot_motor/semubot_motor.egg-info/requires.txt\n'}
+[5.227079] (semubot_motor) StdoutLine: {'line': b'writing top-level names to ../../build/semubot_motor/semubot_motor.egg-info/top_level.txt\n'}
+[5.227671] (semubot_motor) StdoutLine: {'line': b"writing manifest file '../../build/semubot_motor/semubot_motor.egg-info/SOURCES.txt'\n"}
+[5.230244] (-) TimerEvent: {}
+[5.330831] (-) TimerEvent: {}
+[5.432875] (-) TimerEvent: {}
+[5.440923] (semubot_motor) StdoutLine: {'line': b"reading manifest file '../../build/semubot_motor/semubot_motor.egg-info/SOURCES.txt'\n"}
+[5.445531] (semubot_motor) StdoutLine: {'line': b"writing manifest file '../../build/semubot_motor/semubot_motor.egg-info/SOURCES.txt'\n"}
+[5.448418] (semubot_motor) StdoutLine: {'line': b'running build\n'}
+[5.449267] (semubot_motor) StdoutLine: {'line': b'running build_py\n'}
+[5.455430] (semubot_motor) StdoutLine: {'line': b'creating /home/semubot-omar/semubot_ws/build/semubot_motor/build\n'}
+[5.456403] (semubot_motor) StdoutLine: {'line': b'creating /home/semubot-omar/semubot_ws/build/semubot_motor/build/lib\n'}
+[5.457339] (semubot_motor) StdoutLine: {'line': b'creating /home/semubot-omar/semubot_ws/build/semubot_motor/build/lib/semubot_motor\n'}
+[5.458346] (semubot_motor) StdoutLine: {'line': b'copying semubot_motor/cmd_vel_motor_driver.py -> /home/semubot-omar/semubot_ws/build/semubot_motor/build/lib/semubot_motor\n'}
+[5.459172] (semubot_motor) StdoutLine: {'line': b'copying semubot_motor/__init__.py -> /home/semubot-omar/semubot_ws/build/semubot_motor/build/lib/semubot_motor\n'}
+[5.459846] (semubot_motor) StdoutLine: {'line': b'running install\n'}
+[5.485465] (semubot_motor) StdoutLine: {'line': b'running install_lib\n'}
+[5.531641] (-) TimerEvent: {}
+[5.581940] (semubot_motor) StdoutLine: {'line': b'creating /home/semubot-omar/semubot_ws/install/semubot_motor/lib/python3.12/site-packages/semubot_motor\n'}
+[5.582673] (semubot_motor) StdoutLine: {'line': b'copying /home/semubot-omar/semubot_ws/build/semubot_motor/build/lib/semubot_motor/cmd_vel_motor_driver.py -> /home/semubot-omar/semubot_ws/install/semubot_motor/lib/python3.12/site-packages/semubot_motor\n'}
+[5.583519] (semubot_motor) StdoutLine: {'line': b'copying /home/semubot-omar/semubot_ws/build/semubot_motor/build/lib/semubot_motor/__init__.py -> /home/semubot-omar/semubot_ws/install/semubot_motor/lib/python3.12/site-packages/semubot_motor\n'}
+[5.586233] (semubot_motor) StdoutLine: {'line': b'byte-compiling /home/semubot-omar/semubot_ws/install/semubot_motor/lib/python3.12/site-packages/semubot_motor/cmd_vel_motor_driver.py to cmd_vel_motor_driver.cpython-312.pyc\n'}
+[5.590386] (semubot_motor) StdoutLine: {'line': b'byte-compiling /home/semubot-omar/semubot_ws/install/semubot_motor/lib/python3.12/site-packages/semubot_motor/__init__.py to __init__.cpython-312.pyc\n'}
+[5.591608] (semubot_motor) StdoutLine: {'line': b'running install_data\n'}
+[5.592348] (semubot_motor) StdoutLine: {'line': b'creating /home/semubot-omar/semubot_ws/install/semubot_motor/share/ament_index\n'}
+[5.592992] (semubot_motor) StdoutLine: {'line': b'creating /home/semubot-omar/semubot_ws/install/semubot_motor/share/ament_index/resource_index\n'}
+[5.593560] (semubot_motor) StdoutLine: {'line': b'creating /home/semubot-omar/semubot_ws/install/semubot_motor/share/ament_index/resource_index/packages\n'}
+[5.594040] (semubot_motor) StdoutLine: {'line': b'copying resource/semubot_motor -> /home/semubot-omar/semubot_ws/install/semubot_motor/share/ament_index/resource_index/packages\n'}
+[5.594616] (semubot_motor) StdoutLine: {'line': b'copying package.xml -> /home/semubot-omar/semubot_ws/install/semubot_motor/share/semubot_motor\n'}
+[5.595279] (semubot_motor) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.631813] (-) TimerEvent: {}
+[5.691616] (semubot_motor) StdoutLine: {'line': b'Copying ../../build/semubot_motor/semubot_motor.egg-info to /home/semubot-omar/semubot_ws/install/semubot_motor/lib/python3.12/site-packages/semubot_motor-0.0.0-py3.12.egg-info\n'}
+[5.697420] (semubot_motor) StdoutLine: {'line': b'running install_scripts\n'}
+[5.731969] (-) TimerEvent: {}
+[5.832534] (-) TimerEvent: {}
+[5.933167] (-) TimerEvent: {}
+[6.033700] (-) TimerEvent: {}
+[6.134294] (-) TimerEvent: {}
+[6.234883] (-) TimerEvent: {}
+[6.335444] (-) TimerEvent: {}
+[6.384393] (semubot_motor) StdoutLine: {'line': b'Installing cmd_vel_motor_driver script to /home/semubot-omar/semubot_ws/install/semubot_motor/lib/semubot_motor\n'}
+[6.386051] (semubot_motor) StdoutLine: {'line': b"writing list of installed files to '/home/semubot-omar/semubot_ws/build/semubot_motor/install.log'\n"}
+[6.435750] (-) TimerEvent: {}
+[6.534280] (semubot_motor) CommandEnded: {'returncode': 0}
+[6.535907] (-) TimerEvent: {}
+[6.575021] (semubot_motor) JobEnded: {'identifier': 'semubot_motor', 'rc': 0}
+[6.578090] (-) EventReactorShutdown: {}

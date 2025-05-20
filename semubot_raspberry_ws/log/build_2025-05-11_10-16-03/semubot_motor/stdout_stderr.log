@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/semubot_motor/semubot_motor.egg-info
+writing ../../build/semubot_motor/semubot_motor.egg-info/PKG-INFO
+writing dependency_links to ../../build/semubot_motor/semubot_motor.egg-info/dependency_links.txt
+writing entry points to ../../build/semubot_motor/semubot_motor.egg-info/entry_points.txt
+writing requirements to ../../build/semubot_motor/semubot_motor.egg-info/requires.txt
+writing top-level names to ../../build/semubot_motor/semubot_motor.egg-info/top_level.txt
+writing manifest file '../../build/semubot_motor/semubot_motor.egg-info/SOURCES.txt'
+reading manifest file '../../build/semubot_motor/semubot_motor.egg-info/SOURCES.txt'
+writing manifest file '../../build/semubot_motor/semubot_motor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/semubot-omar/semubot_ws/build/semubot_motor/build
+creating /home/semubot-omar/semubot_ws/build/semubot_motor/build/lib
+creating /home/semubot-omar/semubot_ws/build/semubot_motor/build/lib/semubot_motor
+copying semubot_motor/cmd_vel_motor_driver.py -> /home/semubot-omar/semubot_ws/build/semubot_motor/build/lib/semubot_motor
+copying semubot_motor/__init__.py -> /home/semubot-omar/semubot_ws/build/semubot_motor/build/lib/semubot_motor
+running install
+running install_lib
+creating /home/semubot-omar/semubot_ws/install/semubot_motor/lib/python3.12/site-packages/semubot_motor
+copying /home/semubot-omar/semubot_ws/build/semubot_motor/build/lib/semubot_motor/cmd_vel_motor_driver.py -> /home/semubot-omar/semubot_ws/install/semubot_motor/lib/python3.12/site-packages/semubot_motor
+copying /home/semubot-omar/semubot_ws/build/semubot_motor/build/lib/semubot_motor/__init__.py -> /home/semubot-omar/semubot_ws/install/semubot_motor/lib/python3.12/site-packages/semubot_motor
+byte-compiling /home/semubot-omar/semubot_ws/install/semubot_motor/lib/python3.12/site-packages/semubot_motor/cmd_vel_motor_driver.py to cmd_vel_motor_driver.cpython-312.pyc
+byte-compiling /home/semubot-omar/semubot_ws/install/semubot_motor/lib/python3.12/site-packages/semubot_motor/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/semubot-omar/semubot_ws/install/semubot_motor/share/ament_index
+creating /home/semubot-omar/semubot_ws/install/semubot_motor/share/ament_index/resource_index
+creating /home/semubot-omar/semubot_ws/install/semubot_motor/share/ament_index/resource_index/packages
+copying resource/semubot_motor -> /home/semubot-omar/semubot_ws/install/semubot_motor/share/ament_index/resource_index/packages
+copying package.xml -> /home/semubot-omar/semubot_ws/install/semubot_motor/share/semubot_motor
+running install_egg_info
+Copying ../../build/semubot_motor/semubot_motor.egg-info to /home/semubot-omar/semubot_ws/install/semubot_motor/lib/python3.12/site-packages/semubot_motor-0.0.0-py3.12.egg-info
+running install_scripts
+Installing cmd_vel_motor_driver script to /home/semubot-omar/semubot_ws/install/semubot_motor/lib/semubot_motor
+writing list of installed files to '/home/semubot-omar/semubot_ws/build/semubot_motor/install.log'

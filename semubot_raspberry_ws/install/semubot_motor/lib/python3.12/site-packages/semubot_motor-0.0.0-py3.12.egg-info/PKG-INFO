@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: semubot-motor
+Version: 0.0.0
+Summary: ROS2 package to control Semubot motors via GPIO and /cmd_vel
+Maintainer: semubot-omar
+Maintainer-email: semubot-omar@gmail.com
+License: MIT
