@@ -1,0 +1,4 @@
+source;share/semubot/local_setup.bash
+source;share/semubot/local_setup.dsv
+source;share/semubot/local_setup.sh
+source;share/semubot/local_setup.zsh
