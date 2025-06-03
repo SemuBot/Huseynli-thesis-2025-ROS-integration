@@ -31,5 +31,4 @@ This project implements a modular Robot Operating System 2 (ROS2) framework for 
 
 ### 1. Clone the Repo
 ```bash
-git clone https://github.com/yourusername/semubot_ros2.git
-cd semubot_ros2
+git clone https://github.com/SemuBot/Huseynli-thesis-2025-ROS-integration.git
